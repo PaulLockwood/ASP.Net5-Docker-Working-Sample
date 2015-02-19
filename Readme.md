@@ -11,6 +11,6 @@ Done! Browse to http://localhost/
 
 Missing Git or Docker?
 
-* [sudo apt-get install git
-* [sudo apt-get install docker.io
+* sudo apt-get install git
+* sudo apt-get install docker.io
 
