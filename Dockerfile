@@ -4,13 +4,13 @@ COPY project.json /app/
 
 WORKDIR /app
 
-RUN ["kpm", "restore"]
+RUN ["dnu", "restore"]
 
 COPY . /app
 
 EXPOSE 5004
 
-ENTRYPOINT ["k", "kestrel"]
+ENTRYPOINT ["dnx", ".", "kestrel"]
 
 # In this folder:
 # sudo docker build -t myapp .
